@@ -1,1 +1,1 @@
-https://huggingface.co/spaces/kvanzar/Interview_bot
+https://kvanzar-interview-bot.hf.space
