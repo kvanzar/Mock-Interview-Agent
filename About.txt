@@ -1,0 +1,45 @@
+Sidekick AI is a modular and intelligent interview assistant built using the OpenAI Agents SDK. This project simulates real-time interview experiences by dynamically generating questions based on user-selected topics, evaluating answers with contextual understanding, and providing structured feedback and performance summaries at the end.
+
+This tool leverages autonomous agent collaboration to mirror the structure of real-world interviews — with separate agents responsible for topic identification, question generation (including web-searching capability), and final evaluation.
+
+🚀 Features
+Multi-agent architecture: Uses OpenAI’s Agents SDK to orchestrate collaboration between purpose-specific agents.
+
+Web-aware questioning: Integrates a web search tool for real-time context fetching.
+
+Answer evaluation: Grades responses based on relevance, depth, and correctness.
+
+Feedback delivery: Provides clear, structured feedback at the end of each session.
+
+Fully autonomous flow: From greeting to final feedback, the system runs end-to-end without manual intervention.
+
+🛠️ Tech Stack
+Component	Technology
+AI Agents	OpenAI Agents SDK
+Web Interface	Gradio
+Backend Framework	Python (FastAPI / Gradio app backend)
+Search Tool	WebSearchTool (OpenAI SDK-compatible)
+Deployment	Hugging Face Spaces / Localhost
+Environment	Python 3.10+, pip, virtualenv / poetry
+
+🎯 Use Cases
+🧠 Mock Interviews: Practice technical or domain-specific interviews with instant feedback.
+
+📚 Learning Assistant: Learn and reinforce concepts through targeted Q&A.
+
+🎓 Skill Assessments: Evaluate yourself or others on specific topics or job roles.
+
+🧪 AI Research: Explore multi-agent orchestration in real-world task flows.
+
+🛠️ Tool Demonstration: Serve as a live demo for OpenAI Agents SDK in action.
+
+📌 Example Flow
+User selects areas of expertise (e.g., "Python", "Networking").
+
+Agent 1 processes the expertise and passes context to the questioning agent.
+
+Agent 2 asks relevant questions (may use web search if needed).
+
+User answers via UI (Gradio).
+
+Agent 3 evaluates the full session and provides a breakdown of performance, strengths, and areas of improvement.
